@@ -1,7 +1,7 @@
 # HdriToCubemap
 
 A Library to convert HDRI files to .Png Cubemap
-it just a easily way to use this: https://github.com/ivarout/HdriToCubemap/tree/master/HdriToCubemap
+it just a easily way to use this: https://github.com/ivarout/HdriToCubemap/
 
 ## Add to project
 
