@@ -7,6 +7,7 @@ object HdriToCubemap {
 
   /**
    * Native function that generates the .png of cubemaps based on .hdr .
+   *
    * @param inputFile the .hdr file.
    * @param outputFile the dir where .png will be saved.
    * @see Main.kt how to use.
