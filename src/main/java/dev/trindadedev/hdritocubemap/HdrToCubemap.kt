@@ -13,5 +13,6 @@ object HdriToCubemap {
    * @see Main.kt how to use.
    * @see cpp folder to see implementation.
    */
+  @JvmStatic
   external fun convertHdriToCubemap(inputFile: String, outputPath: String)
 }
