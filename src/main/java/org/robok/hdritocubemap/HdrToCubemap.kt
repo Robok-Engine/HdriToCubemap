@@ -15,14 +15,10 @@ object HdriToCubemap {
    * @see README.md to how to use.
    * @see cpp folder to see implementation.
    */
-  @JvmStatic
-  external fun convertHdriToCubemap(inputFile: String, outputPath: String)
+  @JvmStatic external fun convertHdriToCubemap(inputFile: String, outputPath: String)
 
   @JvmStatic
   fun convertHdriToCubemap(inputFile: File, outputPath: File) {
-    convertHdriToCubemap(
-      inputFile = inputFile.absolutePath,
-      outputPath = outputPath.absolutePath
-    )
+    convertHdriToCubemap(inputFile = inputFile.absolutePath, outputPath = outputPath.absolutePath)
   }
 }
